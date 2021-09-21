@@ -1,5 +1,7 @@
 # string-case
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e6c7353804f74bd2a2d0d4cfa1a2366b)](https://app.codacy.com/gh/dekk-app/string-case?utm_source=github.com&utm_medium=referral&utm_content=dekk-app/string-case&utm_campaign=Badge_Grade_Settings)
+
 Convert the case of a string
 
 <!-- toc -->
