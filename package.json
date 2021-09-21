@@ -243,7 +243,7 @@
     "pretypes": "npx rimraf@3.0.2 types",
     "types": "tsc src/*.ts src/**/*.ts --declaration --emitDeclarationOnly --declarationDir \"./types\"",
     "test": "jest",
-    "test:watch": "jest --watch --verbose"
+    "test:watch": "jest --watchAll --verbose"
   },
   "dependencies": {
     "tslib": "^2.3.1"
