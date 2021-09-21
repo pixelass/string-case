@@ -1,3 +1,4 @@
+import { isKebab } from "../../src/is/kebab";
 import { isUpper } from "../../src/is/upper";
 import { button } from "../fixtures/button";
 import { camel } from "../fixtures/camel";
@@ -22,13 +23,13 @@ describe("isUpper", () => {
 		sentence,
 		button,
 	};
-	it(`should test upper as true`, () => {
-		upper.forEach(value => {
+	upper.forEach(value => {
+		it(`should test ${value} as true`, () => {
 			expect(isUpper(value)).toBe(true);
 		});
 	});
-	it(`should test negatives as false`, () => {
-		Object.values(negative).forEach(values => {
+	Object.entries(negative).forEach(([key, values]) => {
+		it(`should test ${key} as false`, () => {
 			values.forEach(value => {
 				expect(isUpper(value)).toBe(false);
 			});

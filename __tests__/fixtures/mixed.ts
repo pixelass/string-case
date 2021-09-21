@@ -10,4 +10,5 @@ export const mixed = [
 	"fooB4",
 	"f00Bar",
 	"f0oB4r",
+	"Foobar",
 ];

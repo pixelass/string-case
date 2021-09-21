@@ -25,7 +25,7 @@ describe("toCase", () => {
 			expect(toCase(value, to as Variant)).toBe(expected);
 		});
 	});
-	const keepsStrings = ["foobar", "FOOBAR"];
+	const keepsStrings = ["foobar", "FOOBAR", "Foo_bar"];
 	keepsStrings.forEach(value => {
 		Object.keys(testStrings).forEach(variant => {
 			it(`should keep ${value}`, () => {

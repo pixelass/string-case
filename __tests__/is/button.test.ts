@@ -1,4 +1,5 @@
 import { isButton } from "../../src/is/button";
+import { isSentence } from "../../src/is/sentence";
 import { button } from "../fixtures/button";
 import { camel } from "../fixtures/camel";
 import { kebab } from "../fixtures/kebab";
@@ -22,13 +23,13 @@ describe("isButton", () => {
 		upper,
 		sentence,
 	};
-	it(`should test button as true`, () => {
-		button.forEach(value => {
+	button.forEach(value => {
+		it(`should test ${value} as true`, () => {
 			expect(isButton(value)).toBe(true);
 		});
 	});
-	it(`should test negatives as false`, () => {
-		Object.values(negative).forEach(values => {
+	Object.entries(negative).forEach(([key, values]) => {
+		it(`should test ${key} as false`, () => {
 			values.forEach(value => {
 				expect(isButton(value)).toBe(false);
 			});

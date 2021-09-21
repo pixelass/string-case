@@ -1,3 +1,4 @@
+import { isKebab } from "../../src/is/kebab";
 import { isLower } from "../../src/is/lower";
 import { button } from "../fixtures/button";
 import { camel } from "../fixtures/camel";
@@ -22,13 +23,13 @@ describe("isLower", () => {
 		sentence,
 		button,
 	};
-	it(`should test lower as true`, () => {
-		lower.forEach(value => {
+	lower.forEach(value => {
+		it(`should test ${value} as true`, () => {
 			expect(isLower(value)).toBe(true);
 		});
 	});
-	it(`should test negatives as false`, () => {
-		Object.values(negative).forEach(values => {
+	Object.entries(negative).forEach(([key, values]) => {
+		it(`should test ${key} as false`, () => {
 			values.forEach(value => {
 				expect(isLower(value)).toBe(false);
 			});

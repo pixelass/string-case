@@ -3,7 +3,7 @@ export const button = [
 	"F B",
 	"Foo Bar",
 	"F Bar",
-	"Foo bar baz",
+	"Foo Bar Baz",
 	"F0 Bar",
 	"Fo0 Bar",
 	"Fo0 B4r",
