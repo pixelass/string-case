@@ -1,6 +1,7 @@
 # string-case
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e6c7353804f74bd2a2d0d4cfa1a2366b)](https://app.codacy.com/gh/dekk-app/string-case?utm_source=github.com&utm_medium=referral&utm_content=dekk-app/string-case&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e6c7353804f74bd2a2d0d4cfa1a2366b)](https://app.codacy.com/gh/dekk-app/string-case)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/dee8c5e712c14fd0acad6654ea2f82c3)](https://www.codacy.com/gh/dekk-app/string-case/dashboard)
 
 Convert the case of a string
 
