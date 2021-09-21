@@ -1,18 +1,24 @@
 import { is } from "./is";
-import { Variant } from "./types";
+import { Case, Variant } from "./types";
 import { variants } from "./variants";
 
-export const getCase = (value: string): Variant | "unknown" | "uppercase" | "lowercase" => {
+export const getCase = (value: string): Variant | Case => {
 	for (const variant of variants) {
 		if (is[variant](value)) {
 			return variant;
 		}
 	}
-	if (!/[-_a-z]/.exec(value)) {
+	if (is.upper(value)) {
 		return "uppercase";
 	}
-	if (!/[-_A-Z]/.exec(value)) {
+	if (is.lower(value)) {
 		return "lowercase";
+	}
+	if (is.sentence(value)) {
+		return "sentence";
+	}
+	if (is.button(value)) {
+		return "button";
 	}
 	return "unknown";
 };
