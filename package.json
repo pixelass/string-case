@@ -231,6 +231,7 @@
     "prebuild": "npx rimraf@3.0.2 dist",
     "build": "babel src --out-dir dist -x \".ts\" --ignore \"src/__tests__\"",
     "postbuild": "yarn types",
+    "markdown-toc": "npx markdown-toc@1.2.0 -i README.md",
     "prepublishOnly": "yarn build",
     "prestandard-version": "yarn build",
     "standard-version": "npx standard-version@9.3.1",
