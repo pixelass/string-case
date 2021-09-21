@@ -64,7 +64,7 @@ from.camel.to.snake("fooBar")
 ### to
 
 ```ts
-import { to } from "@dekk-utils/string-case/from";
+import { to } from "@dekk-utils/string-case/to";
 to.snake.from.camel("fooBar")
 // foo_bar
 ```
@@ -211,8 +211,8 @@ getCase("foo_bar")
 
 ```ts
 import { toCase } from "@dekk-utils/string-case/to-case";
-// As default
-// import toCase  from "@dekk-utils/string-case";
+// As default export
+// import toCase from "@dekk-utils/string-case";
 toCase("fooBar", "snake")
 // foo_bar
 toCase("foo_bar", "camel")
