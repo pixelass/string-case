@@ -21,7 +21,7 @@
     "target": "es6",
     "typeRoots": ["./node_modules/@types", "./types"],
     "outDir": "dist",
-    "declarationDir": "./dist"
+    "declarationDir": "./types"
   },
   "exclude": ["node_modules", "__tests__","dist", "types"],
   "include": ["src/*"]
