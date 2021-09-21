@@ -61,167 +61,166 @@
   "typesVersions": {
     "*": {
       "./convert": [
-        "./types/convert.d.ts"
+        "./dist/convert.d.ts"
       ],
       "./from": [
-        "./types/from.d.ts"
+        "./dist/from.d.ts"
       ],
       "./get-case": [
-        "./types/get-case.d.ts"
+        "./dist/get-case.d.ts"
       ],
       "./is": [
-        "./types/is.d.ts"
+        "./dist/is.d.ts"
       ],
       "./to": [
-        "./types/to.d.ts"
+        "./dist/to.d.ts"
       ],
       "./to-case": [
-        "./types/to-case.d.ts"
+        "./dist/to-case.d.ts"
       ],
       "./to-camel-case": [
-        "./types/to-camel-case.d.ts"
+        "./dist/to-camel-case.d.ts"
       ],
       "./to-kebab-case": [
-        "./types/to-kebab-case.d.ts"
+        "./dist/to-kebab-case.d.ts"
       ],
       "./to-pascal-case": [
-        "./types/to-pascal-case.d.ts"
+        "./dist/to-pascal-case.d.ts"
       ],
       "./to-screaming-kebab-case": [
-        "./types/to-screaming-kebab-case.d.ts"
+        "./dist/to-screaming-kebab-case.d.ts"
       ],
       "./to-screaming-snake-case": [
-        "./types/to-screaming-snake-case.d.ts"
+        "./dist/to-screaming-snake-case.d.ts"
       ],
       "./to-snake-case": [
-        "./types/to-snake-case.d.ts"
+        "./dist/to-snake-case.d.ts"
       ],
       "./camel/kebab": [
-        "./types/camel/kebab.d.ts"
+        "./dist/camel/kebab.d.ts"
       ],
       "./camel/pascal": [
-        "./types/camel/pascal.d.ts"
+        "./dist/camel/pascal.d.ts"
       ],
       "./camel/screaming-kebab": [
-        "./types/camel/screaming-kebab.d.ts"
+        "./dist/camel/screaming-kebab.d.ts"
       ],
       "./camel/screaming-snake": [
-        "./types/camel/screaming-snake.d.ts"
+        "./dist/camel/screaming-snake.d.ts"
       ],
       "./camel/snake": [
-        "./types/camel/snake.d.ts"
+        "./dist/camel/snake.d.ts"
       ],
       "./is/camel": [
-        "./types/is/camel.d.ts"
+        "./dist/is/camel.d.ts"
       ],
       "./is/kebab": [
-        "./types/is/kebab.d.ts"
+        "./dist/is/kebab.d.ts"
       ],
       "./is/pascal": [
-        "./types/is/pascal.d.ts"
+        "./dist/is/pascal.d.ts"
       ],
       "./is/screaming-kebab": [
-        "./types/is/screaming-kebab.d.ts"
+        "./dist/is/screaming-kebab.d.ts"
       ],
       "./is/screaming-snake": [
-        "./types/is/screaming-snake.d.ts"
+        "./dist/is/screaming-snake.d.ts"
       ],
       "./is/snake": [
-        "./types/is/snake.d.ts"
+        "./dist/is/snake.d.ts"
       ],
       "./is/upper": [
-        "./types/is/upper.d.ts"
+        "./dist/is/upper.d.ts"
       ],
       "./is/lower": [
-        "./types/is/lower.d.ts"
+        "./dist/is/lower.d.ts"
       ],
       "./is/button": [
-        "./types/is/button.d.ts"
+        "./dist/is/button.d.ts"
       ],
       "./is/sentence": [
-        "./types/is/sentence.d.ts"
+        "./dist/is/sentence.d.ts"
       ],
       "./kebab/camel": [
-        "./types/kebab/camel.d.ts"
+        "./dist/kebab/camel.d.ts"
       ],
       "./kebab/pascal": [
-        "./types/kebab/pascal.d.ts"
+        "./dist/kebab/pascal.d.ts"
       ],
       "./kebab/screaming-kebab": [
-        "./types/kebab/screaming-kebab.d.ts"
+        "./dist/kebab/screaming-kebab.d.ts"
       ],
       "./kebab/screaming-snake": [
-        "./types/kebab/screaming-snake.d.ts"
+        "./dist/kebab/screaming-snake.d.ts"
       ],
       "./kebab/snake": [
-        "./types/pascal/snake.d.ts"
+        "./dist/pascal/snake.d.ts"
       ],
       "./pascal/camel": [
-        "./types/pascal/camel.d.ts"
+        "./dist/pascal/camel.d.ts"
       ],
       "./pascal/kebab": [
-        "./types/pascal/kebab.d.ts"
+        "./dist/pascal/kebab.d.ts"
       ],
       "./pascal/screaming-kebab": [
-        "./types/pascal/screaming-kebab.d.ts"
+        "./dist/pascal/screaming-kebab.d.ts"
       ],
       "./pascal/screaming-snake": [
-        "./types/pascal/screaming-snake.d.ts"
+        "./dist/pascal/screaming-snake.d.ts"
       ],
       "./pascal/snake": [
-        "./types/pascal/snake.d.ts"
+        "./dist/pascal/snake.d.ts"
       ],
       "./screaming-kebab/camel": [
-        "./types/screaming-kebab/camel.d.ts"
+        "./dist/screaming-kebab/camel.d.ts"
       ],
       "./screaming-kebab/kebab": [
-        "./types/screaming-kebab/kebab.d.ts"
+        "./dist/screaming-kebab/kebab.d.ts"
       ],
       "./screaming-kebab/pascal": [
-        "./types/screaming-kebab/pascal.d.ts"
+        "./dist/screaming-kebab/pascal.d.ts"
       ],
       "./screaming-kebab/screaming-snake": [
-        "./types/screaming-kebab/screaming-snake.d.ts"
+        "./dist/screaming-kebab/screaming-snake.d.ts"
       ],
       "./screaming-kebab/snake": [
-        "./types/screaming-kebab/snake.d.ts"
+        "./dist/screaming-kebab/snake.d.ts"
       ],
       "./screaming-snake/camel": [
-        "./types/screaming-snake/camel.d.ts"
+        "./dist/screaming-snake/camel.d.ts"
       ],
       "./screaming-snake/kebab": [
-        "./types/screaming-snake/kebab.d.ts"
+        "./dist/screaming-snake/kebab.d.ts"
       ],
       "./screaming-snake/pascal": [
-        "./types/screaming-snake/pascal.d.ts"
+        "./dist/screaming-snake/pascal.d.ts"
       ],
       "./screaming-snake/screaming-kebab": [
-        "./types/screaming-snake/screaming-kebab.d.ts"
+        "./dist/screaming-snake/screaming-kebab.d.ts"
       ],
       "./screaming-snake/snake": [
-        "./types/screaming-snake/snake.d.ts"
+        "./dist/screaming-snake/snake.d.ts"
       ],
       "./snake/camel": [
-        "./types/snake/camel.d.ts"
+        "./dist/snake/camel.d.ts"
       ],
       "./snake/kebab": [
-        "./types/snake/kebab.d.ts"
+        "./dist/snake/kebab.d.ts"
       ],
       "./snake/pascal": [
-        "./types/snake/pascal.d.ts"
+        "./dist/snake/pascal.d.ts"
       ],
       "./snake/screaming-kebab": [
-        "./types/snake/screaming-kebab.d.ts"
+        "./dist/snake/screaming-kebab.d.ts"
       ],
       "./snake/screaming-snake": [
-        "./types/snake/screaming-snake.d.ts"
+        "./dist/snake/screaming-snake.d.ts"
       ]
     }
   },
-  "typings": "types/index.d.ts",
+  "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "types"
+    "dist"
   ],
   "repository": "git@github.com:dekk-app/string-case.git",
   "author": "Gregor Adams <greg@pixelass.com>",
@@ -229,7 +228,7 @@
   "private": false,
   "scripts": {
     "prebuild": "npx rimraf@3.0.2 dist",
-    "build": "babel src --out-dir dist -x \".ts\" --ignore \"src/__tests__\"",
+    "build": "babel src --out-dir dist -x \".ts\"",
     "postbuild": "yarn types",
     "markdown-toc": "npx markdown-toc@1.2.0 -i README.md",
     "ncu:major": "npx npm-check-updates@11.8.3",
@@ -243,8 +242,7 @@
     "release:rc": "yarn standard-version --prerelease rc",
     "release:alpha": "yarn standard-version --prerelease alpha",
     "release:beta": "yarn standard-version --prerelease beta",
-    "pretypes": "npx rimraf@3.0.2 types",
-    "types": "tsc src/*.ts src/**/*.ts --declaration --emitDeclarationOnly --declarationDir \"./types\"",
+    "types": "tsc src/*.ts src/**/*.ts --declaration --emitDeclarationOnly --declarationDir \"./dist\"",
     "test": "jest",
     "test:watch": "jest --watchAll --verbose"
   },
